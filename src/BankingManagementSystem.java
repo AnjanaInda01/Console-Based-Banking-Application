@@ -53,9 +53,13 @@ public class BankingManagementSystem {
                     checkBalance();
                     break;
                 case 4:
-
-
-
+                    checkBalance();
+                case 5:
+                    applyLoan();
+                case 6:
+                    viewLoanDetails();
+                case 7:
+                    transferFunds();
                 default:
                     System.out.println("Invalid choice!Try again.");
             }
